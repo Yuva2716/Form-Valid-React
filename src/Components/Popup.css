@@ -1,0 +1,53 @@
+.Popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+.Popup-inner{
+    max-width: 60%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1px;
+    color: #fff;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.Success{
+    text-align: center;
+    text-decoration: underline;
+    color: mediumblue;
+    font-size: 2.2rem;
+}
+
+.close{
+    display: inline;
+    float: right;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 0;
+    border: 1px solid red;
+    cursor: pointer;
+    color: red;
+    background-color: rgba(248,21,40,.4);
+}
+.close:hover{
+    background-color: rgba(248,21,40);
+    opacity: 1;
+    color: black;
+}
+
+.tick{
+    color: green;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    padding: 5px;
+    border: 5px solid darkgreen;
+}
